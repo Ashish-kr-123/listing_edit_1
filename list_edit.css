@@ -1,0 +1,342 @@
+body{
+    margin:auto
+}
+
+header{
+    height: 100px;
+    background-color: lightslategray;
+}
+#brand{
+    color: black;
+    font-size: 65px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#search_box{
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #3b2632;
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+    border-radius: 7px 7px 7px 7px;
+}
+.material-icons{
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.location{
+    width: 140px;
+    font-size: 14px;
+    color: grey;
+    font-family: Okra, Helvetica, sans-serif;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.icon-down:before {
+    content: "\25BE";
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+    border-right: 2px solid gray;
+}
+.fa-search{
+    margin-left: 3%;
+    margin-top: 1%;
+    float: left;
+}
+.search_1{
+    color: grey;
+    font-size: 14px;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+}
+#login{
+    height: 100px;
+    width: 200px;
+    /* background-color: white;  */
+    /* border: 1px solid black;  */
+    float: left;
+    margin-left: 10%;
+}
+.circular_image {
+    width: 50%;
+    height: 95%;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.name{
+    margin-top: 33px;
+    margin-left: 6px;
+    font-size: x-large;
+    float: left; 
+} 
+.arrow{
+    border:solid goldenrod;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 40px;
+    margin-left: 14px;
+}
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#filter{
+    height: auto;
+    /* background-color: rgb(192, 240, 255); */
+    /* border: 5px dotted green; */
+}
+.address{
+    margin-left: 3%;
+    /* margin-top: 10px; */
+}
+#logos{
+    height: 200px;
+    width: 1200px;
+    /* background-color: pink; */
+    /* border: 1px solid black;  */
+    margin-left: 3%;
+    margin-top: 1%;
+}
+#logos_1{
+    height: 200px;
+    width: 400px;
+    /* background-color: yellowgreen; */
+    float: left;  
+}
+#logos_2{
+    height: 200px;
+    width: 400px;
+    /* background-color: goldenrod; */
+    float: left;  
+}
+#logos_3{
+    height: 200px;
+    width: 400px;
+    /* background-color: royalblue; */
+    float: left;
+    /* display: inline-block;  */
+}
+.delivery_1{
+    width: 53%;
+    height: 102%;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.diningout_1{
+    width: 53%;
+    height: 102%;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.nightlife_1{
+    width: 53%;
+    height: 102%;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.delivery_2{
+    color: red;
+    font-size: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 18%;
+    text-decoration: underline;
+    float: left;
+}
+.diningout_2{
+    color: grey;
+    font-size: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 18%;
+    float: left;
+}
+.nightlife_2{
+    color: grey;
+    font-size: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 18%;
+    float: left;
+}
+
+#filter_2{
+    height: 155px;
+    /* border: 5px groove pink; */
+    /* background-color: pink; */
+}
+.container{
+    height:130px;
+    width:30%;
+    border:1px solid black;
+    box-shadow: 5px 5px 15px #3b2632;
+    border-radius: 7px 7px 7px 7px;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+    font-size: large;
+    
+}
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    color: gray;
+    font-size: medium;
+    text-align: center;
+  }
+
+#quicksearch{
+    height: auto;
+    /* border: 5px groove pink; */
+    /* background-color: lightseagreen; */
+    /* display: inline-block; */
+}  
+.results{
+    margin-left: 2%;
+    text-decoration: double underline;
+    font-size: large;
+}  
+.box{
+    height: 380px;
+    width: 30%;
+    /* border: groove black; */
+    /* background-color:palevioletred; */
+    /* box-shadow: 10px 10px 10px #3b2632; */
+    margin-left: 2%;
+    margin-top: 2%;
+    display: inline-block;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box_1{
+    height: 250px;
+    width: 100%;
+    /* border: groove black;
+    background-color:palevioletred;
+    margin-left: 2%; */
+    /* margin-top: 2%; */
+}
+.box_2{
+    height: 112px;
+    width:100%;
+    /* border: dotted purple; */
+    /* display: inline-block; */
+}
+.box_1 > img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5%;
+}
+.rest_name{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: x-large;
+    text-decoration: underline;
+    float: left;
+}
+.duration{
+    height: 20px;
+    width: 50px;
+    margin-left: 17%;
+    margin-top: 4%;
+    /* border:1px solid red; */
+    border-radius: 17%;
+    background-color: lightgray;
+    float: left;
+}
+.ratings{
+    height: 20px;
+    width: 50px;
+    margin-left: 2%;
+    margin-top: 4%;
+    /* border:1px solid red; */
+    border-radius: 17%;
+    background-color: rgb(22, 152, 22);
+    float: left;
+}
+.dishes{
+    margin-left: 2%;
+    margin-top: 1%;
+    color: grey;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: small;
+    /* float: left; */
+}
+.graph{
+    margin-left: 2%;
+    color: grey;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: small;
+}
+hr{
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+footer{
+    height:140px;
+    background-color: #3b2632;
+    color:#fff;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.fotDiv{
+    width:31%;
+    float:left;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+@media screen and (max-width:1250px){
+    body{
+        background-color:skyBlue
+    }
+}
+@media screen and (max-width:999px){
+    body{
+        background-color:rgb(194, 243, 190)
+    }
+    .box{
+        width:45%
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(249, 198, 199)
+    }
+    .box{
+        width:100%
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(194, 205, 242)
+    }
+}
+
+
+
